@@ -1,0 +1,6 @@
+name: Custom Multilingual Configurations
+type: module
+description: 'Creates a demo page for showcasing multilingual configurations.'
+package: DCM2019
+core: 8.x
+configure: cmc.greetings_form

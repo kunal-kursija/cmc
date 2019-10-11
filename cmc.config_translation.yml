@@ -1,0 +1,5 @@
+cmc.greetings_settings:
+  title: 'Greetings'
+  base_route_name: cmc.greetings_form
+  names:
+    - cmc.greetings_settings

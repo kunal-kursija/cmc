@@ -1,0 +1,4 @@
+cmc.greetings_form_tab:
+  route_name: cmc.greetings_form
+  title: 'Configure'
+  base_route: cmc.greetings_form

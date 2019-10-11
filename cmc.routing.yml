@@ -1,0 +1,17 @@
+cmc.greetings_form:
+  path: '/admin/config/cmc/greetings'
+  defaults:
+    _form: '\Drupal\cmc\Form\GreetingsForm'
+    _title: 'Setup Greetings'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE
+
+cmc.welcome:
+  path: '/welcome'
+  defaults:
+    _controller: '\Drupal\cmc\Controller\Welcome::showGreetings'
+    _title: ''
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,12 @@
+.cmc_greetings {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cmc_greetings h1 {
+    font-size: 100px;
+}
+
+.cmc_greetings p {
+    font-size: 50px;
+}

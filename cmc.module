@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains theme definition for cmc output.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function cmc_theme($existing, $type, $theme, $path) {
+  return [
+    'cmc_greetings' => [
+      'variables' => [
+        'greeting' => NULL,
+        'summary' => NULL,
+      ],
+    ],
+  ];
+}
